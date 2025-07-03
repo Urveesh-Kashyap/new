@@ -38,7 +38,9 @@ class login(APIView):
         data_=json.loads(request.body)
         user_mod=get_user_model()
         uname= data_.get('name')
+        print(uname)
         password = data_.get('password')
+        print(password)
         d = authenticate(username=uname,password=password)
 
         if d is not None:
