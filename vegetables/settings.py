@@ -89,10 +89,10 @@ WSGI_APPLICATION = "vegetables.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bharat',
-        'HOST':'localhost',
+        'NAME': 'railway',
+        'HOST':'mysql.railway.internal',
         'USER':'root',
-        'PASSWORD':'',
+        'PASSWORD':'PoUEWohLeCmDTaoyBHPxTbGQwUjfaPUI',
         'PORT':'3306'
     }
 }
