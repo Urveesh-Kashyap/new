@@ -90,7 +90,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
-        'HOST':'gondola.proxy.rlwy.net:10637',
+        'HOST':'w5n5ulhe.up.railway.app',
         'USER':'root',
         'PASSWORD':'PoUEWohLeCmDTaoyBHPxTbGQwUjfaPUI',
         'PORT':'3306'
